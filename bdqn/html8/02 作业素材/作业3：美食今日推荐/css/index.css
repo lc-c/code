@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: darkred;
+}
+section{
+    width: 300px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px 10px;
+}
+section>div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+}
+section div:first-child>img{
+    flex: 0 0 20%;
+}
+.text-red{
+    color: red;
+    font-weight: bolder;
+}

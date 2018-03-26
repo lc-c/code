@@ -1,0 +1,23 @@
+.content{
+    width: 1011px;
+    margin: 0 auto;
+}
+body>img{
+    position: fixed;
+}
+.sKill{
+    top: 5%;
+    left: 0;
+}
+.erwei{
+    top: 5%;
+    right: 0;
+}
+.contact{
+    top: 35%;
+    right: 0;
+}
+.iphone{
+    bottom: 0;
+    right: 0;
+}
