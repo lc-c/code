@@ -1,0 +1,22 @@
+﻿WebStorm官方下载地址：
+https://www.jetbrains.com/webstorm/download/
+最新版
+Version:    10.0.2
+Build:      141.728
+Released:   April 17, 2015
+File size:  149 Mb
+
+破解和汉化过程说明：
+下载下来，安装，先注册，导出配置再汉化,导入配置。
+1、
+注册方法：
+看(注册方法.jpg)
+2、
+汉化方法：
+将汉化包文件
+resources_en.jar
+替换
+\WebStorm10.0.2\lib\
+下的
+resources_en.jar
+

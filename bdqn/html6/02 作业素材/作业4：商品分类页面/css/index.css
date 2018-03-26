@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    width: 200px;
+    margin: 0px auto;
+    line-height: 40px;
+    border: 2px orange solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+li{
+    list-style-type: none;
+    font-size: 12px;
+    padding-left: 45px;
+    border-bottom:1px #ccc dotted;
+    background-repeat: no-repeat!important;
+}
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #faa53b;
+}

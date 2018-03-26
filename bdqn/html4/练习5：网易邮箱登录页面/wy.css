@@ -1,0 +1,18 @@
+p{
+    font-size: 16px;
+}
+header a{
+    color: #f10158;
+    font-size: 14px;
+}
+*[type=text],*[type*=pass]{
+    background-color: #ffffed;
+    font-size: 18px;
+}
+footer a{
+    font-size: 14px;
+    color: #9873f2;
+}
+section li{
+    color: #0099ff;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    width: 250px;
+    height: 280px;
+    padding:0 20px;
+    margin: 0px auto;
+    line-height: 25px;
+    border-radius: 10px;
+    border: 1px #D8D8D8 solid;
+    background: linear-gradient(to bottom, #a9faff, #fff, #fff);
+}
+
+li{
+    list-style-type: none;
+    height: 2rem;
+    font-size: 14px;
+    background-image: url("../images/dotBg.gif");
+    background-position: 3px -5px;
+    background-size: 100% 100%;
+}
+h3{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 32px;
+    background-image:url("../images/bg.gif") ;
+    background-repeat: no-repeat;
+    border-bottom: 1px  #D8D8D8 solid;
+}
+a{
+    color: #636363;
+    text-decoration: none;
+}
+a:hover{
+    color: #FF6DA8;
+}

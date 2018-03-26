@@ -1,0 +1,28 @@
+h1{
+    font-size: 22px;
+    color: #333;
+    font-family: ËÎÌו;
+    text-align: center;
+    text-shadow:rgba(0,0,0,0.5) 2px 2px 2px ;
+}
+h2{
+    font-size: 18px;
+    color: #999;
+    line-height: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    color: #333;
+    line-height: 180%;
+    text-indent: 28px;
+}
+span{
+    color: red;
+}
+.aa{
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}

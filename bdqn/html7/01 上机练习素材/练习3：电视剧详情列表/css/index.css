@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: royalblue;
+}
+.content{
+    width: 400px;
+}
+.content>div{
+    margin-top: 10px;
+}
+.title h4{
+    text-indent: 1rem;
+    background-image: url("../image/1.gif");
+    background-repeat: no-repeat;
+    background-position:left center;
+    border:1px solid royalblue;
+}
+.title+div div{
+    float: left;
+}
+.title+div::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+div .detailed{
+    width: 60%;
+    line-height: 1.5rem;
+}
+.list span{
+    float: right;
+}    

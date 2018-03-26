@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            width: 300px;
+            height: 300px;
+            padding: 5px;
+            border: 1px solid saddlebrown;
+        }
+        a{
+            color: #000;
+            text-decoration: none;
+        }
+        .content>div{
+            position: relative;
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            text-align: center;
+            line-height: 100px;
+        }
+        .content div:nth-child(2){
+            left: 100px;
+        }
+        .content div:nth-child(3){
+            top: 200px;
+            left: -200px;
+        }
+        .content div:nth-child(4){
+            left: 200px;
+            top: 100px;
+        }
+        .content>div:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div><a href="#">链接1</a></div>
+        <div><a href="#">链接2</a></div>
+        <div><a href="#">链接3</a></div>
+        <div><a href="#">链接4</a></div>
+        <div><a href="#">链接5</a></div>
+    </div>
+</body>
+</html>

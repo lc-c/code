@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iframe</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	
+
+	<!--
+		form声明一个表单
+			action数据提交地址
+			method数据提交方式
+				get在地址栏显示表单元素数据（不安全）
+				post 在地址栏不显示表单元素数据
+		input	表单元素
+			type	表单元素类型
+			name	后台获取信息的标志
+			value	表单元素内容
+		text	文本框
+			size 文本框长度(外观)
+			maxlength 文本框中显示的最大字符数（数据）
+		password 密码框
+		submit 	提交（点击submit表单把数据提交到action所在的地址）
+		reset	重置（把表单元素的值恢复为默认值）
+		radio	单选按钮
+				实现互斥必须name值保持一致，value为向后台传的数据
+				实现默认选中状态属性值加 checked
+	-->
+	<form action="test1.html" method="get" enctype="multipart/form-data">
+		<!-- 
+			hidden 隐藏域
+				使用场景：程序需要但是不可以被用户看看到的数据
+				页面不现实，浏览器可以识别，数据可以传递到后台
+				注：必须事先规定value
+					如果不规定，后台拿到空值
+					如果不事先规定需要通过其他方式向隐藏域中传值
+		-->
+		<p><input type="hidden" name="userID" value="66666" /></p> 
+		<!-- 
+			search	搜索框：
+				不填写数据样式为文本框，填写数据之后显示x,点击x之后，清空搜索框内容
+		-->
+		<p>搜索：<input type="search" name="userSearh" /></p>
+		<!-- 
+			email  邮箱（自动验证）
+				验证有没有@
+				如果有@，@前后有没有数据
+		-->
+		<p>邮箱：<input type="email" name="userEmail" placeholder="必须有@，且@前后有文字" /></p>
+		<!-- 
+			url  网址（自动验证）
+				验证有没有http://或者https://  及后边是否有数据
+		-->
+		<p>博客：<input type="url" name="userURL" /></p>
+		<!-- 
+			placeholder:提示语：默认显示，填写文本后提示语消失
+			pattern	:数据验证：规则:正则表达式
+			required：必填项，不填不允许提交表单
+		-->
+		<p>电话：<input type="text" name="tel"  pattern="^1[358]\d{9}"  placeholder="开头为13，15，18且为11位数字" size="50"/></p>
+		<!-- 
+			number 	数字（自动验证）
+				验证数字范围和间隔
+				数字应为最小值+间隔的整数倍
+				min最小值
+				max最大值
+				step数字间隔
+		-->
+		<p>年龄：<input type="number" name="userAge" min="0" max="100" step="2" required /></p>
+		<!-- 
+			range	滑块 和浏览器有关
+				min最小值
+				max最大值
+				step数字间隔
+				注：不现实数值
+		-->
+		<p>年龄1：<input type="range" name="userAge1" min="0" max="100" step="2"/></p>
+		<!-- 
+			readonly（是属性不是标签）
+				使用场景：不允许更改的数据
+				能看不能改
+				如果标签设置readonly则必须设置value值
+			
+		-->
+		<p><label for="userName">用户名：</label><input type="text" name="userName" value="张三" size="10" id="userName" maxlength="5" required /></p>
+		<p>密码:<input type="password" name="userPwd"maxlength="5" /></p>
+		<!-- 
+			label 文本标注（通过id实现标注功能）
+				步骤一：为表单设置id（注：id为唯一值，如果id相同，默认识别第一个）
+				步骤二：为文本设置label标签，在label标签内设置for=“id值”属性是实现点击文字选中表单元素功能
+		-->
+		
+		<p>性别:<input type="radio" name="sex" value="男" id="man" checked /><label for="man">男</label>
+				<input type="radio" name="sex" value="女" id="male" /><label for="male">女</label>
+				<input type="radio" name="sex" value="泰"  id="maleOrman" /><label for="maleOrman">泰</label>
+		</p>
+		<!-- 
+			checkbox 复选框
+		-->
+		<p>爱好:<input type="checkbox" name="like" value="运动" id="运动" checked /><label for="运动">运动</label>
+				<input type="checkbox" name="like" value="看书" checked/>看书
+		</p>
+		<p>技能:<input type="checkbox" name="tec" value="编程"  checked/>编程
+				<input type="checkbox" name="tec" value="文艺" checked/>文艺
+		</p>
+		<!-- 
+			select 声明一个列表框
+				option 选项
+					value选项值（如果不设置选项值，默认为选项文本）
+				option中设置selected属性为默认选中状态，如果不设置默认为第一个选项	
+		-->
+		<p>
+			部门：<select name="dept">
+						<option value="后勤">后勤部</option>
+						<option value="销售" selected>销售部</option>
+						<option value="公关">公关部</option> 
+				  </select>
+		
+		</p>
+		<!-- 
+			disabled  禁用
+				注：不仅限于按钮
+		-->
+		<p>
+			<input type="text" disabled />
+		
+		</p>
+		
+		<p>
+		<!-- 
+			textarea 文本域 文本域中的内容和页面文本完全一致
+			列指英文字母列数，一个中文占两列
+			行数中英文一致
+		-->
+		
+			<textarea name="xieyi" cols="20" rows="10">abcdefg
+			hijk
+			欢 迎
+			阅读阿里   巴巴公司
+			（阿里    巴巴）服务条款协议(下称"本协议")，您应当在使用服务之前认真阅读本协议全部内容，且对本协议中加粗字体显
+			</textarea>
+		</p>
+		<!-- 
+			file	文件上传
+				必须在form标签中设置enctype="multipart/form-data"
+		-->
+		<p>
+			选择头像：<input type="file" name="filename" />
+		</p>
+		<!-- image 图片按钮 src 图片路径 功能和submit一样 -->
+		<p>
+			<input type="image" src="../22/11.jpg" width="30px"/>&nbsp;&nbsp;
+			<input type="button" value="普通按钮" onclick="alert(this.value)"/>&nbsp;&nbsp;
+			<input type="reset" value="重置"/>&nbsp;&nbsp;
+			<input type="submit" value="注册" /></p>
+			
+	</form>
+</body>
+</html>

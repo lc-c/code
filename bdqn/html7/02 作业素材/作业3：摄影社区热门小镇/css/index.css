@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.list::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.list>div{
+    float: left;
+    width: 300px;
+}
+.list>div>div{
+    float: left;
+    margin-top: 10px;
+}
+.list>div>div:first-child{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+}
+.list>div>div img{
+    border-radius: 5px;
+}

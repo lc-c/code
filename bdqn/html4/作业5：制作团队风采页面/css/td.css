@@ -1,0 +1,23 @@
+h3{
+    font-size: 18px;
+}
+.ab{
+    color: red;
+}
+.bc{
+    color:green ;
+}
+p{
+    font-size: 14px;
+}
+.ac img{
+    width: 300px;
+    height: 200px;
+}
+.bb{
+    color: blue;
+}
+p a{
+    font-size: 14px;
+    color: #640000;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+header{
+    padding-left: 100px;
+}
+section{
+    position: relative;
+}
+section>img{
+    width: 100%;
+}
+section .login{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+}
+.login .title h3{
+    float: left;
+}
+.login .title a{
+    text-indent: 1rem;
+    color: indianred;
+    background-image: url("../image/icon5.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.login div a{
+    float: right;
+}
+.login div{
+    height: 38px;
+    margin-top: 10px;
+}
+.login .emil,.login .password{
+    border: 1px solid #ccc;
+}
+.login div input:not([type=checkbox]){
+    width: 259px;
+    height: 100%;
+    border: none;
+    float: right;
+    outline: none;
+    border-left: 1px solid #ccc;
+}
+input,a{
+    vertical-align: middle;
+}
+.submit>input{
+    width: 100%!important;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: indianred;
+}
+.text-center{
+    text-align: center;
+}

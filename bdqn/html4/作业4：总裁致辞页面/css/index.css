@@ -1,0 +1,12 @@
+p {
+    font-size: 12px;
+    }
+.ab{
+    font-weight: bold;
+    color: red;
+}
+.ac{
+    font-size: 16px;
+    color: blue;
+    font-style: italic;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>学员免费体验登陆页面</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+    <div class="content">
+        <form action="/login" method="POST">
+        <ul>
+            <li><span>*</span>姓名：<input type="text" value="" name="xm" size=""></li>
+            <li><span>*</span>邮箱：<input type="email" value="" name="emil" size=""></li>
+            <li><span>*</span>电话：<input type="text" value="" name="dh" size="" maxlength="11" required > </li>
+            <li>性别：
+                <select name="sex">
+                    <option selected>请选择</option>
+                    <option>男</option>
+                    <option>女</option>
+                </select>
+            </li>
+            <li> 年龄：
+                <select name="age">
+                    <option selected>请选择</option>
+                    <option>18</option>
+                    <option>20</option>
+                    <option>30</option>
+                    <option>40</option>
+                    <option>50</option>
+                </select>
+            </li>
+            <li><input type="image" src="images/btn.jpg" alt=""/></li>
+        </ul>
+        </form>
+    </div>
+</body>
+</html>

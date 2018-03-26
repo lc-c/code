@@ -1,0 +1,42 @@
+h2{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
+    background: linear-gradient(to top,#0467ac,#63a7d6,#b6dbf5);
+    text-indent: 14px;
+}
+li{
+    list-style: none;
+}
+div{
+    width: 300px;
+}
+h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    background: linear-gradient(to top,#ffffed,#bddff7,#ffffed );
+
+}
+.aa:link{
+    color: #0565c6;
+    text-decoration: none;
+}
+.aa:hover{
+    color: #0565c6;
+    text-decoration: underline;
+}
+a{
+   font-size: 12px;
+    line-height: 26px;
+}
+a:link{
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color: #f60;
+    text-decoration: underline;
+}
+

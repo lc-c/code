@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+}
+.content{
+    width: 300px;
+    height: 350px;
+    margin: 0px auto;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 180px 0 0 100px;
+}
+.content ul{
+    font-size: 12px;
+    color: white;
+    line-height: 30px;
+}
+.content span{
+    color: red;
+}
+input,
+select{
+    border-radius: 5px;
+}

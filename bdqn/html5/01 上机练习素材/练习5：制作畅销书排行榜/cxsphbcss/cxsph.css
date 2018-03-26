@@ -1,0 +1,68 @@
+h3,ul{
+    margin: 0;
+    /*padding: 0;*/
+}
+h3{
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    background-color: #618700;
+    background-image: url("../imgs/bang.gif");
+    background-repeat: no-repeat;
+    background-position: 82px 2px;
+}
+ul li:nth-of-type(1){
+    list-style-image: url("../imgs/book_no01.gif");
+    list-style-type:none ;
+
+}
+ul {
+    background: linear-gradient(to bottom,#f9fbcb,#f8f8f3);
+    font-size: 12px;
+    line-height: 28px;
+}
+ul li:nth-of-type(2){
+    list-style-image: url("../imgs/book_no02.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(3){
+    list-style-image: url("../imgs/book_no03.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(4){
+    list-style-image: url("../imgs/book_no04.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(5){
+    list-style-image: url("../imgs/book_no05.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(6){
+    list-style-image: url("../imgs/book_no06.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(7){
+    list-style-image: url("../imgs/book_no07.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(8){
+    list-style-image: url("../imgs/book_no08.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(9){
+    list-style-image: url("../imgs/book_no09.gif");
+    list-style-type:none ;
+
+}
+ul li:nth-of-type(10){
+    list-style-image: url("../imgs/book_no10.gif");
+    list-style-type:none ;
+
+}

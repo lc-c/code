@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style-type: none;
+}
+.content{
+    width: 800px;
+    margin: 0 auto;
+}
+.title span{
+    float: right;
+    color: #CCC;
+}
+.list li{
+    /* width: 300px; */
+    float: left;
+}
+.list li:nth-of-type(2n){
+    margin-left: 120px;
+}

@@ -1,0 +1,55 @@
+#title{
+    background: linear-gradient(to top,#ececec,#ffffed);
+    color: white;
+    line-height: 30px;
+}
+.one p{
+    color: #5c9815;
+}
+.one  p span:nth-of-type(1){
+    color: white;
+    background-color: rgb(2 90 83);
+}
+.one  p span:nth-of-type(2){
+    color: white;
+    background-color: rgb(2 155 55);
+}
+.one  p span:nth-of-type(3){
+    color: white;
+    background-color: rgb(2 140 191);
+}
+.one  p span:nth-of-type(4){
+    color: white;
+    background-color: rgb(2 102 177);
+}
+.one  p span:nth-of-type(5){
+    color: white;
+    background-color: rgb(2 39 98);
+}
+.tow p{
+    color:#f26522 ;
+}
+.tow p span:nth-of-type(1){
+    color: white;
+    background-color: #EE6E22;
+}
+.tow p span:nth-of-type(2){
+    color: white;
+    background-color: #BB151C;
+}
+.tow p span:nth-of-type(3){
+    color: white;
+    background-color: #D73866;
+}
+.tow p span:nth-of-type(4){
+    color: white;
+    background-color: #A80733;
+}
+.tow p span:nth-of-type(5){
+    color: white;
+    background-color: #563272;
+}
+.tow p span:nth-of-type(6){
+    color: white;
+    background-color: #501469;
+}

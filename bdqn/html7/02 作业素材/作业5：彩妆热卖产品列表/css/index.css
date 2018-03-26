@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+#title{
+    color: #fff;
+    background-color: rgb(236, 22, 129);
+}
+section{
+    width: 230px;
+}
+.list a{
+    text-align: center;
+    border-bottom: 1px dotted #000;
+}
+.list a>div{
+    display: none;
+}
+.list a:hover{
+    color: rgb(236, 22, 129);
+}
+.list a:hover>div{
+    display: block;
+}

@@ -1,0 +1,16 @@
+p{
+    font-size: 14px;
+}
+body h2{
+    font-size: 16px;
+}
+.ab{
+    color: #f00;
+}
+.ab~h2{
+    color: #0000ff;
+}
+body>img{
+    width: 887px;
+    height: 439px;
+}

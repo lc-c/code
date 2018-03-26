@@ -1,0 +1,35 @@
+div{
+    width: 400px;
+    background: linear-gradient(to bottom,#caeffe,#ffffed);
+}
+h1 {
+    font-size: 18px;
+    text-shadow: black 2px 2px 2px;
+    text-align: center;
+    color: #0076db;
+}
+
+P{
+    font-size: 12px;
+    text-indent: 2em;
+    line-height: 22px;
+
+}
+.aa{
+    font-size: 12px;
+    color: #afafaf;
+}
+.ab{
+    font-size: 18px;
+    text-shadow: black 2px 2px 2px,#fff 3px 3px 3px;
+    color: #b515cc;
+}
+.ac{
+    font-style: italic;
+    font-size: 16px;
+    color: blue;
+}
+.ad{
+    color: rgba(0, 225, 0, 0.5);
+    text-decoration: underline;
+}
