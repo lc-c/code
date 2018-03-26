@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+li{
+    list-style: none;
+}
+.loop{
+    width: 426px;
+    position: relative;
+}
+.status{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+.loop .status li{
+    float: left;
+    padding: 2px;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    border:1px solid #CCC;
+    background-color: #fff;
+    margin-left: 5px;
+}
