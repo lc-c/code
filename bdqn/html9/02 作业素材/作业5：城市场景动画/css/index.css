@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -99;
+    background-color: rgb(162, 185, 182);
+    animation: bgc 15s ease-in-out 2 alternate;
+}
+.content img{
+    position: absolute;
+}
+img:nth-of-type(2){
+    top: 30vh;
+    left: 55vw;
+    z-index: -3;
+    transform: scale(0.8);
+}
+img:nth-of-type(6){
+    top: 40vh;
+    left: 10vw;
+}
+img:nth-of-type(7){
+    top: 20vh;
+    left: 25vw;
+    z-index: 2;
+}
+img:nth-of-type(8){
+    top: 30vh;
+    left: 45vw;
+    z-index: -1;
+}
+img:nth-of-type(9){
+    width: 100vw;
+    bottom: 3vh;
+    right: 0;
+    z-index: -2;
+}
+img:nth-of-type(10){
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    z-index: 2;
+}
+img:nth-of-type(11){
+    bottom: 6vh;
+    left: 3vw;
+    z-index: 1;
+}
+img:nth-of-type(12){
+    bottom: 30vh;
+    right: 3vw;
+    z-index: 1;
+}
+img:nth-of-type(13){
+    top: 45vh;
+    right: 8vw;
+    z-index: -3;
+}
+img:nth-of-type(14){
+    bottom: -5vh;
+    right: -30vw;
+    z-index: 2;
+}
+img:nth-of-type(15){
+    bottom: 0;
+    left: -30vw;
+    z-index: 2;
+}
+img:nth-of-type(1){
+    animation: ball 15s ease-in-out 2 alternate both;
+}
+img:nth-of-type(3),img:nth-of-type(4),img:nth-of-type(5){
+    animation: cloud1 15s ease-in-out 2 alternate both;
+}
+@keyframes ball{
+    0%{
+        right: 0;
+        transform: rotate(30deg);
+    }
+    25%{
+        right: 30vw;        
+    }
+    50%{
+        right: 50vw;
+    }
+    75%{
+        right: 70vw;
+    }
+    100%{
+        right: 100vw;
+    }
+}
+@keyframes bgc{
+    25%{
+        background-color: rgb(120, 196, 199);
+    }
+    50%{
+        background-color: rgb(39, 123, 126);
+    }
+    100%{
+        background-color: rgb(8, 116, 204);
+    }
+}
+@keyframes cloud1{
+    0%{
+        right: 30vw;
+        transform: rotate(30deg);
+    }
+    25%{
+        right: 40vw;        
+    }
+    50%{
+        right: 60vw;
+    }
+    75%{
+        right: 80vw;
+    }
+    100%{
+        right: 100vw;
+    }
+}

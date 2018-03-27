@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body>img{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    height: 120px;
+    top: 50vh;
+    right: 3px;
+}
+.icons>div{
+    position: relative;
+    height: 18px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+}
+.icons>div>div{
+    position: absolute;
+    color: #fff;
+    width: 7rem;
+    height: 100%;
+    top: 0;
+    right: -6rem;
+    z-index: 2;
+    text-indent: 1rem;
+    line-height: 180%;
+}
+.icons>div:hover div{
+    right: 0%;
+    background-color: hsla(0, 91%, 47%, 0.8);
+}
