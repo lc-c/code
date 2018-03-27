@@ -1,0 +1,16 @@
+.images{
+    margin: 0;
+    padding: 0;
+}
+.images li{
+    list-style: none;
+    margin-left: 20px;
+    float: left;
+    transition: transform 0.5s;
+}
+.images li:first-child{
+    margin-left: 0;
+}
+.images li:hover{
+    transform: rotate(360deg) scale(1.2);
+}

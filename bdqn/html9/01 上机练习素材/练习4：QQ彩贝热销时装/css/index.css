@@ -1,0 +1,19 @@
+.content{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    align-items: stretch;
+    border:1px solid #ccc;
+}
+.content>div:first-child{
+    flex: 0 0 30%;
+}
+.content>div:last-child{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+}
+.content>div:last-child div{
+    display: flex;
+    flex: 0 0 50%;
+}

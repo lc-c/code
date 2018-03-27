@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div id="wall">
+
+    </div>
+    <template id="template-img">
+        <div class="img" style="transform: rotate({{deg}}deg);top:{{top}}vh;left:{{left}}vw;">
+            <img src="./image/{{path}}.jpg" alt="">
+        </div>
+    </template>
+    <script>
+        var template = document.getElementById("template-img").innerHTML;
+        var wall = document.getElementById("wall");
+        for(var i = 0;i<=50;i++){
+            wall.innerHTML += template.replace("{{path}}",(i%10+1)).replace("{{deg}}",random(10,360)).replace("{{top}}",random(80,10)).replace("{{left}}",random(80,10));
+        }
+        function random(max,min){
+            return Math.floor(Math.random()*(max-min+1)+min);
+        }
+    </script>
+</body>
+</html>
