@@ -97,6 +97,9 @@ img:nth-of-type(3),img:nth-of-type(4),img:nth-of-type(5){
     }
 }
 @keyframes bgc{
+    0%{
+        background-color: rgb(162, 185, 182);
+    }
     25%{
         background-color: rgb(120, 196, 199);
     }
