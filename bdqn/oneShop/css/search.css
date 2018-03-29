@@ -65,14 +65,14 @@ li{
     flex: 0 0 17.8%;
     border-right: 1px solid #ccc;
 }
-.product-list .title{
+.product-list .caption{
     display: flex;
     height: 4rem;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
 }
-.history .title>div:first-child{
+.history .caption>div:first-child{
     color: orangered;
     font-size: 1.2rem;
     text-indent: 2px;
@@ -84,7 +84,7 @@ li{
     /* display: flex; */
     flex:0 0 83.2%;
 }
-.items .title .btns{
+.items .caption .btns{
     display: flex;
     flex: 0 0 28%;
     height: 50%;
@@ -95,16 +95,66 @@ li{
     justify-content: space-between;
     border-left: none;
 }
-.items .title .btns>div{
+.items .caption .btns>div{
     flex: auto;
     line-height: 200%;
     border-left: 1px solid #ccc;
 }
-.items .title .btns>div:first-child{
+.items .caption .btns>div:first-child{
     color: #fff;
     background-color: orangered;
 }
 .text-red{
     color: darkred;
-    font-size: 1.5 rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.text-oranger{
+    color: orangered;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.items .items-list{
+    /* display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: space-around; */
+    columns:4 12em;   
+}
+.items-list .item{
+    display: flex;
+    flex: 0 0 22%;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+
+}
+.items-list .item>img{
+    height: 180px;
+}
+.items-list .item>.title a{
+    color: #222;
+    font-weight: 500;
+    text-align: center;
+}
+.items-list .item .btns{
+    display: flex;
+    color: #D35400;
+    justify-content: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+.items-list .item .btns>div:first-child{
+    border-right: 1px solid #ccc;
+}
+.items-list .item .btns>div{
+    flex: 0 0 50%;
+    padding: 8px 0;
+    text-align: center;
+    align-self: stretch;
+    cursor: pointer;
+}
+.items-list .item .btns>div:hover{
+    color:#ECF0F1;
+    background-color: #3498DB;
 }
