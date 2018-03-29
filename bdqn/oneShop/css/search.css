@@ -10,7 +10,7 @@ html{
     height: 400vh;
     box-sizing: border-box;
     padding:230px 107px;
-    background-image: url("../搜索列表页完成后效果.bmp");
+    /* background-image: url("../搜索列表页完成后效果.bmp"); */
     background-size: 100%;
 }
 div{
@@ -82,7 +82,7 @@ li{
 }
 .product-list .items{
     /* display: flex; */
-    flex:0 0 83.2%;
+    flex:auto;
 }
 .items .caption .btns{
     display: flex;
@@ -115,19 +115,20 @@ li{
     text-align: center;
 }
 .items .items-list{
-    /* display: flex;
-    flex-wrap: wrap;
-    padding-top: 30px;
-    justify-content: space-around; */
-    columns:4 12em;   
+    width: 100%;
+    column-count:4;
+    column-gap: 30px;
+    column-rule: none;
+    padding: 5px 20px;
 }
 .items-list .item{
-    display: flex;
-    flex: 0 0 22%;
+    display: inline-flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-around;
-
+    padding: 5px 0;
+    height: 300px;
+    column-fill:balance;
 }
 .items-list .item>img{
     height: 180px;
