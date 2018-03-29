@@ -57,6 +57,7 @@ li{
 }
 .product-list{
     display: flex;
+    justify-content: space-between;
     margin-top: 20px;
 }
 .product-list .history{
@@ -65,10 +66,38 @@ li{
 }
 .product-list .title{
     display: flex;
-    justify-content: space-around;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.history .title>div:first-child{
+    color: orangered;
+    font-size: 1.2rem;
+    text-indent: 2px;
+    margin-left: 1rem;
+    border-left: 4px solid orangered;
+    font-weight: bolder;
 }
 .product-list .items{
     /* display: flex; */
-   width:  83.2%;
+   flex:0 0 83.2%;
     border: 1px solid #ccc;
+}
+.items .title .btns{
+    display: flex;
+    flex: 0 0 28%;
+    border: 1px solid #ccc;
+    align-self: stretch;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.items .title .btns>div{
+    flex: auto;
+    height: 45%;
+    line-height: 200%;
+}
+.items .title .btns>div:first-child{
+    color: #fff;
+    background-color: orangered;
 }
