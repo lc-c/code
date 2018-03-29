@@ -59,16 +59,18 @@ li{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    border: 1px solid #ccc;
 }
 .product-list .history{
     flex: 0 0 17.8%;
-    border: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 .product-list .title{
     display: flex;
     height: 4rem;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #ccc;
 }
 .history .title>div:first-child{
     color: orangered;
@@ -80,24 +82,29 @@ li{
 }
 .product-list .items{
     /* display: flex; */
-   flex:0 0 83.2%;
-    border: 1px solid #ccc;
+    flex:0 0 83.2%;
 }
 .items .title .btns{
     display: flex;
     flex: 0 0 28%;
+    height: 50%;
     border: 1px solid #ccc;
-    align-self: stretch;
+    align-self: center;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
+    border-left: none;
 }
 .items .title .btns>div{
     flex: auto;
-    height: 45%;
     line-height: 200%;
+    border-left: 1px solid #ccc;
 }
 .items .title .btns>div:first-child{
     color: #fff;
     background-color: orangered;
+}
+.text-red{
+    color: darkred;
+    font-size: 1.5 rem;
 }
