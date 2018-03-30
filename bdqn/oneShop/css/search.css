@@ -63,7 +63,7 @@ li{
 }
 .product-list .history{
     flex: 0 0 17.8%;
-    border: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 .product-list .caption{
     display: flex;
@@ -128,7 +128,8 @@ li{
     justify-content: space-around;
     padding: 5px 0;
     height: 300px;
-    column-fill:balance;
+    cursor: pointer;
+    /* column-fill:balance; */
 }
 .items-list .item>img{
     height: 180px;
@@ -169,6 +170,7 @@ li{
     width: 30px;
     height: 30px;
     padding: 5px;
+    cursor: pointer;
     text-align: center;
     line-height: 150%;
     margin: 10px 5px;
