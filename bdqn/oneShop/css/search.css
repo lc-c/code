@@ -49,12 +49,28 @@ li{
 }
 .nav-list>div{
     padding: 10px;
+    line-height: 2rem;
     border-bottom: 2px solid #ccc;
+}
+.nav-list div span{
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.nav-list div span:hover{
+    color: orangered;
 }
 .nav-list>div>div:first-child{
     flex: 0 0 10%;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
+.nav-list>div>div:last-child{
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .product-list{
     display: flex;
     justify-content: space-between;
@@ -64,6 +80,18 @@ li{
 .product-list .history{
     flex: 0 0 17.8%;
     border-right: 1px solid #ccc;
+}
+.product-list .history .his-list{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px 10%;
+}
+.product-list .history .his-list div{
+    /* width: 80%; */
+}
+.his-list img{
+    width: 100%;
 }
 .product-list .caption{
     display: flex;
@@ -135,9 +163,13 @@ li{
     height: 180px;
 }
 .items-list .item>.title a{
+    display: block;
     color: #222;
     font-weight: 500;
     text-align: center;
+    height: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .items-list .item .btns{
     display: flex;
