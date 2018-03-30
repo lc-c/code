@@ -63,7 +63,7 @@ li{
 }
 .product-list .history{
     flex: 0 0 17.8%;
-    border-right: 1px solid #ccc;
+    border: 1px solid #ccc;
 }
 .product-list .caption{
     display: flex;
@@ -157,5 +157,24 @@ li{
 }
 .items-list .item .btns>div:hover{
     color:#ECF0F1;
+    background-color: #3498DB;
+}
+.page{
+    display: flex;
+    justify-content: flex-end;
+}
+.page>div{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    line-height: 150%;
+    margin: 10px 5px;
+}
+.page>.active{
+    color: #ECF0F1;
+    border: none;
     background-color: #3498DB;
 }
