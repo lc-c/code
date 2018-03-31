@@ -10,6 +10,7 @@ html{
     height: 400vh;
     box-sizing: border-box;
     padding:230px 107px;
+    margin: 0 auto;
     /* background-image: url("../搜索列表页完成后效果.bmp"); */
     background-size: 100%;
 }
@@ -87,9 +88,7 @@ li{
     box-sizing: border-box;
     padding: 10px 10%;
 }
-.product-list .history .his-list div{
-    /* width: 80%; */
-}
+
 .his-list img{
     width: 100%;
 }
@@ -145,7 +144,7 @@ li{
 .items .items-list{
     width: 100%;
     column-count:4;
-    column-gap: 30px;
+    column-gap: 5%;
     column-rule: none;
     padding: 5px 20px;
 }
