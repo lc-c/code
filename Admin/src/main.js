@@ -1,7 +1,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import iView from "iview";
+import api from "./api/api";
+import "iview/dist/styles/iview.css";
+Vue.prototype.$api = api;
 
+Vue.use(iView);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
